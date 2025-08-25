@@ -14,8 +14,8 @@
 ### 第二步：配置Git（首次使用）
 ```bash
 # 配置用户信息（替换为您的信息）
-git config --global user.name "您的姓名"
-git config --global user.email "您的邮箱@example.com"
+git config --global user.name "Yuena2568"
+git config --global user.email "yuena2568@example.com"
 ```
 
 ### 第三步：初始化并上传项目
@@ -36,7 +36,7 @@ git commit -m "🎉 Initial commit: Python用户服务API v1.0.0
 - 完整工具集"
 
 # 4. 添加远程仓库（替换为您的GitHub信息）
-git remote add origin https://github.com/您的用户名/仓库名.git
+git remote add origin https://github.com/Yuena2568/仓库名.git
 
 # 5. 推送到GitHub
 git branch -M main
@@ -45,7 +45,7 @@ git push -u origin main
 
 ## 📋 完整命令示例
 
-假设您的GitHub用户名是 `yourname`，仓库名是 `python-service`：
+假设您的GitHub用户名是 `Yuena2568`，仓库名是 `python-service`：
 
 ```bash
 # 初始化仓库
@@ -54,7 +54,7 @@ git add .
 git commit -m "🎉 Initial commit: Python用户服务API"
 
 # 连接GitHub
-git remote add origin https://github.com/yourname/python-service.git
+git remote add origin https://github.com/Yuena2568/python-service.git
 git branch -M main
 git push -u origin main
 ```
