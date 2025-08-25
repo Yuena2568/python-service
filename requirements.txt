@@ -1,0 +1,29 @@
+# FastAPI核心框架
+fastapi>=0.104.0
+# ASGI服务器，用于运行FastAPI应用
+uvicorn[standard]>=0.24.0
+
+# 数据库相关
+# MySQL异步驱动
+aiomysql>=0.2.0
+# SQLAlchemy ORM框架
+sqlalchemy>=2.0.0
+
+# 身份认证和安全
+# JWT令牌处理
+python-jose[cryptography]>=3.3.0
+# 密码哈希
+passlib[bcrypt]>=1.7.0
+# 多部分表单数据处理
+python-multipart>=0.0.6
+
+# 环境变量管理
+python-dotenv>=1.0.0
+
+# 数据验证和设置管理
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+email-validator>=2.0.0
+
+# 日期时间处理
+python-dateutil>=2.8.0
